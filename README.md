@@ -1,12 +1,13 @@
 #SOFTWARE PROJECT MANAGEMENT
-##Online Coffe shop lookup website
+##Online Coffe shop lohpokup website
 ###**Create Database**
-**1. shop_table**
+**1. shops_table**
 - id
 - name
 - address
 - district
 - city
+- phone
 - main_image
 - price
 - information
@@ -15,14 +16,14 @@
 - created_at
 - deteled_at
 
-**2. image_table**
+**2. images_table**
 - id
 - shop_id
 - url
 - created_at
 - deleted_at
 
-**3. comment_table**
+**3. comments_table**
 - id
 - shop_id
 - email
