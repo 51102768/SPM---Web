@@ -22,7 +22,7 @@
 	- Start server.
 	- Open localhost.
 	- Go to your project in localhost.
-	- Open "puclic" directory.
+	- Open "public" directory.
 	- If it run, server can probably work.
 10. Continuing to complete the project.
 
