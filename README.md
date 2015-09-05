@@ -1,19 +1,30 @@
 #SOFTWARE PROJECT MANAGEMENT
 ##Online Coffee shop lohpokup website
 ###**Install Project**###
-1. Install [XAMPP](https://www.apachefriends.org/) or [WAMP](https://www.apachefriends.org/) for window web server (LAMP for ubuntu) (Suggest: WAMP is more stable)
-2. Install Composer
+1. Install [XAMPP](https://www.apachefriends.org/) or [WAMP](https://www.apachefriends.org/) for window web server (LAMP for ubuntu) (Suggest: WAMP is more stable).
+2. Activating the Xampp or Wamp server, if xampp or wampp server won't run, taking a look at [configuration of Port](https://nguyenduydai.wordpress.com/tag/huong-dan-doi-port-cho-wampserver/) (because of Skype or Visual studio port confict).
+3. Install Composer
 	- Link: [Composer](https://getcomposer.org/)
-3. Install Environment Path for Composer
+4. Install Environment Path for Composer
 	- Check after install: In command line, type "composer" if it wont be found so have to reinstall environment path.
-4. Install Laravel in Composer
+5. Install Laravel in Composer
 	- Command: composer global require "laravel/installer=~1.1"
 	- Note: if it requires "php.exe" file, point to *XAMPP*(bin) or *WAMP*(apache) server directory 
-5. Download [GIT](https://help.github.com/articles/set-up-git/#platform-windows)
-6. Learn how to use git
-	- Using command line, go to public directory of XAMPP or WAMP.
+6. Download [GIT](https://help.github.com/articles/set-up-git/#platform-windows)
+7. Learn how to use git
+	- Open git shell.
+	- Using git shell, go to public directory of XAMPP or WAMP.
 	- Clone to this [project's repository](https://github.com/51102768/SPM---Web): git clone https://github.com/51102768/SPM---Web.git
-7. Continuing to complete the project.
+8. Update dependencies:
+	- Open command line prompt (cmd not Git shell).
+	- Move to SPM---Web directory in command line promt, type: composer install (install dependencies for project)
+9. Test server:
+	- Start server.
+	- Open localhost.
+	- Go to your project in localhost.
+	- Open "puclic" directory.
+	- If it run, server can probably work.
+10. Continuing to complete the project.
 
 ###**Create Database**
 **1. shops_table**
