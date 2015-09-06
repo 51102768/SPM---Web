@@ -26,6 +26,22 @@
 	- If it run, server can probably work.
 10. Continuing to complete the project.
 
+###**Task**###
+- Online training
+- Analyse requirements and features
+- 1st meeting
+- Design database
+- 2nd meeting
+- Design mock-up
+- Code front-end
+- Code back-end
+- Test front-end, layouts
+- Test back-end, features
+- Gather and connect code
+- Integration test
+- Deploy to server
+- Final test
+
 ###**Create Database**
 **1. shops_table**
 - id
