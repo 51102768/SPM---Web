@@ -26,6 +26,20 @@
 	- If it run, server can probably work.
 10. Continuing to complete the project.
 
+
+###**Pull and Push Project**###
+####Pull####
+1. Open command line prompt.
+2. Move to SPM---Web directory.
+3. Type git pull.
+####Push####
+1. Open command line prompt.
+2. Move to SPM---Web directory.
+3. Type: git checkout -b [name_of_your_new_branch]
+4. To push your code type: git push origin [name_of_your_new_branch]
+5. **Check this [site](https://github.com/Kunena/Kunena-Forum/wiki/Create-a-new-branch-with-git-and-manage-branches) for more intructions**.
+6. After push to your branch create a pull request in github website. Check for more information [here](https://help.github.com/articles/creating-a-pull-request/).
+
 ###**Task**###
 - Online training
 - Analyse requirements and features
