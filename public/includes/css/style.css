@@ -1,6 +1,10 @@
 body {display: flex;min-height: 100vh;flex-direction: column;}
 
-main{flex: 1 0 auto;}
+main{flex: 1 0 auto; }
 
 .brand-logo{margin-top: 7px; margin-left: 20px;}
 .search-bar{display: none;}
+
+.parallax-container {height: 300px;}
+
+.content{background-color: #eeeeee;}

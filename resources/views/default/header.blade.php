@@ -2,7 +2,7 @@
 	<div class="navbar-fixed">
     <nav>
       <div class="nav-wrapper brown lighten-1">
-        <a href="#!" class="brand-logo"><img src="{{asset('images/logo-nav.png')}}" alt=""></a>
+        <a href="{{asset('/')}}" class="brand-logo"><img src="{{asset('images/logo-nav.png')}}" alt=""></a>
         <ul class="right hide-on-med-and-down">
 			<li><a href="" class="search-btn"><i class="material-icons">search</i></a></li>
 			<li><a href="">Đăng kí</a></li>
