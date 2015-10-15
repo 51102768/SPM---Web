@@ -32,6 +32,7 @@
 1. Open command line prompt.
 2. Move to SPM---Web directory.
 3. Type git pull.
+
 ####Push####
 1. Open command line prompt.
 2. Move to SPM---Web directory.
