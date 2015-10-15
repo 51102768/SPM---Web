@@ -1,5 +1,5 @@
 #SOFTWARE PROJECT MANAGEMENT
-##Online Coffee shop lohpokup website
+##Online Coffee shop lookup website
 ###**Install Project**###
 1. Install [XAMPP](https://www.apachefriends.org/) or [WAMP](https://www.apachefriends.org/) for window web server (LAMP for ubuntu) (Suggest: WAMP is more stable).
 2. Activating the Xampp or Wamp server, if xampp or wampp server won't run, taking a look at [configuration of Port](https://nguyenduydai.wordpress.com/tag/huong-dan-doi-port-cho-wampserver/) (because of Skype or Visual studio port confict).
