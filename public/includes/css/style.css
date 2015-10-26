@@ -1,0 +1,25 @@
+body {display: flex;min-height: 100vh;flex-direction: column;}
+
+main{flex: 1 0 auto;}
+
+.brand-logo{margin-top: 7px; margin-left: 20px;}
+.search-bar{display: none; position:absolute; z-index:5}
+
+.parallax-container {height: 300px;}
+
+.section{background-color: #eeeeee;}
+
+.item{padding-right: 5px; padding-top: 5px;}
+.card-image img{width: 100%;}
+
+.masonry-grid{margin-bottom: 0px;}
+
+footer.page-footer{margin-top: 0px;}
+
+
+.waitingIcon{display: none; margin: auto; margin-bottom: 50px;}
+.preloader-wrapper{margin: 0px 0 0 -50px;left: 50%;}
+
+/*****************************************************/
+.imgWrapper img{margin:0 auto; vertical-align: center; height: 400px;}
+
