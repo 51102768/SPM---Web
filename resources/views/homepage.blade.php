@@ -241,7 +241,7 @@
 		    	dataElement +='</div>';
 		    	dataElement +='<div class="card-reveal">';
 		      	dataElement +='<span class="card-title grey-text text-darken-4">'+value.name+'<i class="material-icons right">close</i></span>';
-		      	dataElement +='<p>'+value.information+'</p>';
+		      	dataElement +='<p>'+truncateText(value.information, 50)+'</p>';
 		      	dataElement +='<p>Giá: '+formatNumber(value.price)+'<sup>đ</sup></p>';
 		      	dataElement +='<p>Giờ mở cửa:'+value.open_time+' đến '+value.close_time+'</p>';
 		    	dataElement +='</div>';
@@ -265,6 +265,14 @@
 
 		function formatNumber (num) {
 			return num.toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1.")
+		}
+		function truncateText(text, maxLength) {
+		    var truncated = text;
+
+		    if (truncated.length > maxLength) {
+		        truncated = truncated.substr(0,maxLength) + '...';
+		    }
+		    return truncated;
 		}
 	}
 </script>
