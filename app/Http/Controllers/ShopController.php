@@ -83,8 +83,7 @@ class ShopController extends Controller
     }
 
     public function searchData(Request $request){
-
-
+        
         if(!isset($search)){
             $shops = DB::table("shops")->where('name', 'like', '%'.$request->name.'%')->get();
         }

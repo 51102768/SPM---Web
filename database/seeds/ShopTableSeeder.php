@@ -178,7 +178,7 @@ Hợp với các buổi thư giãn, hẹn hò, họp nhóm",
 			"city"		=>"Hồ Chí Minh",
 			"main_image"=>"images/monkeyinblackcafe.jpg",
 			"price"		=>"25000",
-			"information"=> "Monkey In Black có không gian ấm cúng, tính tế là địa chỉ thư giãn thích hợp cho mỗi khách. Với châm ngôn '"'Nghĩ điên làm chất'"' hương vị cafe nơi đây đậm đà.",
+			"information"=> "Monkey In Black có không gian ấm cúng, tính tế là địa chỉ thư giãn thích hợp cho mỗi khách. Với châm ngôn Nghĩ điên làm chất hương vị cafe nơi đây đậm đà.",
 			"open_time"	=>"8:00:00",
 			"close_time"=>"22:00:00",
 
@@ -383,7 +383,7 @@ Hợp với các buổi thư giãn, hẹn hò, họp nhóm",
 		Shop::create([
 			"name"		=>"PNC Book Cafe",
 			"slug"		=> str_slug("PNC Book Cafe", "-"),
-			"address"	=>"3 Nguyễn Oanh"
+			"address"	=>"3 Nguyễn Oanh",
 			"district"	=>"Quận Gò Vấp",
 			"city"		=>"Hồ Chí Minh",
 			"main_image"=>"images/bookcafe.jpg",

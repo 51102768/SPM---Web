@@ -1,4 +1,4 @@
-
+	
 @extends('master')
 @section('content')
 <div class="parallax-container">
