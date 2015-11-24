@@ -19,3 +19,13 @@ Route::post('get-shop','ShopController@getData');
 Route::get('shop/{shop_name}',"ShopController@getOneShop");
 
 Route::get('search',"ShopController@searchData");
+
+Route::post('auth/legacy',"LoginController@loginLegacy");
+
+Route::get('/auth/signout',"LoginController@signout");
+
+Route::post('register',"RegisterController@store");
+
+Route::get('/auth/facebook',"LoginController@loginFacebook");
+
+Route::get('/auth/facebook/callback',"LoginController@loginFacebookCallback");

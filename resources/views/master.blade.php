@@ -41,6 +41,7 @@
 		<script src="{{asset('includes/js/masonry.pkgd.min.js')}}"></script>
 
 		<script>
+			$('.modal-trigger').leanModal();
 			$(".search-btn").mouseover(function(){
 				$(".search-bar").fadeIn(350);
 			});
@@ -57,8 +58,23 @@
 					//Do processing of click event here for every element except with id menu_content
 					$(".search-bar").fadeOut(350);
 			});
-		</script>
 
+		</script>
+		@if(Session::has('message'))
+			<script>
+				Materialize.toast('{!!Session::get("message")!!}', 4000)
+			</script>
+		@endif
+		@if(Session::has('registerfailed'))
+			<script>
+				$('#registermodal').openModal();
+			</script>
+		@endif
+		@if(Session::has('loginfailed'))
+			<script>
+				$('#loginmodal').openModal();
+			</script>
+		@endif
 		@yield('script')
 	</body>
 </html>

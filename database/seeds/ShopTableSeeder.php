@@ -270,7 +270,7 @@ Hợp với các buổi thư giãn, hẹn hò, họp nhóm",
 		//20
         Shop::create([
 			"name"		=>"Gloria Jean’s Coffee Hồ Con Rùa",
-			"slug"		=> str_slug("Gloria Jean’s Coffee - Hồ Con Rùa", "-"),
+			"slug"		=> str_slug("Gloria Jean’s Coffee Hồ Con Rùa", "-"),
 			"address"	=>"2 bis Công Trường Quốc Tế",
 			"district"	=>"Quận 3",
 			"city"		=>"Hồ Chí Minh",
@@ -284,7 +284,7 @@ Hợp với các buổi thư giãn, hẹn hò, họp nhóm",
 		//21
         Shop::create([
 			"name"		=>"Lu's Coffee Phạm Hùng",
-			"slug"		=> str_slug("Lu's Coffee - Phạm Hùng", "-"),
+			"slug"		=> str_slug("Lu's Coffee Phạm Hùng", "-"),
 			"address"	=>"229B Phạm Hùng",
 			"district"	=>"Quận 8",
 			"city"		=>"Hồ Chí Minh",

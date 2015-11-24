@@ -12,6 +12,8 @@ use App\Slider;
 
 use DB;
 
+use Form;
+
 class ShopController extends Controller
 {
     public function homepage(){
